@@ -1,0 +1,122 @@
+export const trips = [
+  {
+    id: 'secrets-huatulco',
+    name: 'Secrets Huatulco Resort & Spa',
+    type: 'Solo adultos',
+    location: 'Huatulco, Oaxaca',
+    price: '$45,500 MXN',
+    duration: '5 noches',
+    image: '/images/huatulco.jpg',
+    isRecommended: true,
+    description: 'Bahías tranquilas, resort solo para adultos con 8 restaurantes sin reservación y mar del Pacífico sin sargazo.',
+    cons: 'El vuelo puede ser caro en mayo.'
+  },
+  {
+    id: 'riu-palace-pacifico',
+    name: 'Riu Palace Pacifico',
+    type: 'Solo adultos',
+    location: 'Nuevo Vallarta, Nayarit',
+    price: '$38,000 MXN',
+    duration: '5 noches',
+    image: '/images/nuevo_vallarta.jpg',
+    isRecommended: true,
+    description: 'La de mejor relación calidad-precio. Vuelos baratos, te sobra presupuesto para un tour a las Islas Marietas.',
+    cons: 'Zona más concurrida.'
+  },
+  {
+    id: 'ovation-of-the-seas',
+    name: 'Ovation of the Seas',
+    type: 'Crucero',
+    location: 'Los Ángeles → Ensenada',
+    price: '$48,135 MXN',
+    duration: '4 noches',
+    image: '/images/ovation_of_the_seas.jpg',
+    isRecommended: true,
+    description: 'Experiencia premium en altamar con balcón. Incluye paquete Deluxe de bebidas.',
+    cons: 'Requiere visa B1/B2. Solo hace parada en Ensenada.'
+  },
+  {
+    id: 'carnival-radiance',
+    name: 'Carnival Radiance',
+    type: 'Crucero',
+    location: 'Long Beach → Ensenada',
+    price: '$43,680 MXN',
+    duration: '4 noches',
+    image: '/images/carnival_radiance.jpg',
+    isRecommended: false,
+    description: 'Incluye paquete CHEERS! de bebidas y propinas. Salida desde Los Ángeles.',
+    cons: 'Requiere visa B1/B2.'
+  },
+  {
+    id: 'carnival-breeze',
+    name: 'Carnival Breeze',
+    type: 'Crucero',
+    location: 'Galveston → Cozumel → Progreso',
+    price: '$49,340 MXN',
+    duration: '5 noches',
+    image: '/images/carnival_breeze.jpg',
+    isRecommended: false,
+    description: 'El crucero más "mexicano", con escalas en Cozumel y Progreso.',
+    cons: 'Requiere visa B1/B2. Al límite del presupuesto.'
+  },
+  {
+    id: 'margaritaville-islander',
+    name: 'Margaritaville at Sea Islander',
+    type: 'Crucero',
+    location: 'Tampa → Cozumel → Progreso',
+    price: '$47,965 MXN',
+    duration: '5 noches',
+    image: '/images/margaritaville_at_sea_islander.jpg',
+    isRecommended: false,
+    description: 'Experiencia relajada Margaritaville. Incluye paquete de bebidas y propinas.',
+    cons: 'Requiere visa B1/B2. No hay vuelo directo MEX-Tampa.'
+  },
+  {
+    id: 'krystal-ixtapa',
+    name: 'Krystal Ixtapa',
+    type: 'Todas las edades',
+    location: 'Ixtapa-Zihuatanejo, Guerrero',
+    price: '$30,500 MXN',
+    duration: '5 noches',
+    image: '/images/ixtapa_zihuatanejo.jpg',
+    isRecommended: false,
+    description: 'La opción más económica. Mar del Pacífico sin sargazo.',
+    cons: 'Resort sencillo.'
+  },
+  {
+    id: 'riu-santa-fe',
+    name: 'Riu Santa Fe',
+    type: 'Todas las edades',
+    location: 'Los Cabos, BCS',
+    price: '$39,500 MXN',
+    duration: '5 noches',
+    image: '/images/los_cabos.jpg',
+    isRecommended: false,
+    description: 'Ambiente de fiesta y vistas espectaculares al Arco de Cabo San Lucas.',
+    cons: 'Mar bravo, no apto para nadar en la playa.'
+  },
+  {
+    id: 'el-cid-marina',
+    name: 'El Cid Marina Beach',
+    type: 'Familiar',
+    location: 'Mazatlán, Sinaloa',
+    price: '$33,750 MXN',
+    duration: '5 noches',
+    image: '/images/mazatlan.jpg',
+    isRecommended: false,
+    description: 'Buena relación calidad-precio y vuelos accesibles.',
+    cons: 'Puede que el mar no sea el más cristalino.'
+  },
+  {
+    id: 'grand-oasis-cancun',
+    name: 'Grand Oasis',
+    type: 'Económico',
+    location: 'Cancún',
+    price: '$35,000 MXN',
+    duration: '5 noches',
+    image: '/images/cancun.jpg',
+    isRecommended: false,
+    description: 'Resort grande y económico en la Riviera Maya.',
+    cons: '⚠️ Riesgo alto de sargazo en mayo.'
+  }
+];
