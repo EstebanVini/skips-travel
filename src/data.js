@@ -2,7 +2,8 @@
 // Fotos: Wikimedia Commons, ver src/photos.js para autor y licencia de cada una.
 import { photos } from './photos'
 
-const p = (...keys) => keys.map(k => photos[k])
+// BASE_URL agrega el prefijo /skips-travel/ de GitHub Pages.
+const p = (...keys) => keys.map(k => ({ ...photos[k], src: import.meta.env.BASE_URL + photos[k].src.slice(1) }))
 
 const KAYAK = {
   PVR: 'https://www.kayak.com.mx/vuelos/Ciudad-de-Mexico-Juarez-y-otros-aeropuertos-MEX/Pto-Vallarta-Aeropuerto-Internacional-de-Puerto-Vallarta-PVR',
